@@ -1,8 +1,9 @@
 import React from 'react';
+import NotesApp from './component/NotesApp';
 
 function App() {
   return (
-    <div className="App" />
+    <NotesApp />
   );
 }
 

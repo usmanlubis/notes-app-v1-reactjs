@@ -17,5 +17,7 @@
         "react"
     ],
     "rules": {
+        "react/prop-types": "off",
+        "react/destructuring-assignment": ["enabled", "always", { "ignoreClassFields": true, "destructureInSignature": "ignore" }]
     }
 }
